@@ -10,9 +10,20 @@ Console.WriteLine("This is text line...");
 // WriteLine - ставить новий рядок вкінці
 // Write - не ставить новий рядок після тексту
 
+// змінити колір фону та тексту
+Console.BackgroundColor = ConsoleColor.White;
+
+Console.ForegroundColor = ConsoleColor.Red;
 Console.Write("Red");
+
+Console.ForegroundColor = ConsoleColor.Green;
 Console.Write("Green");
+
+Console.ForegroundColor = ConsoleColor.Blue;
 Console.Write("Blue");
+
+// скинути кольори до стандартних
+Console.ResetColor();
 
 // спец символи: \n \t \' \"
 
