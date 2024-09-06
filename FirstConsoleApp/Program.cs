@@ -35,4 +35,29 @@ Console.OutputEncoding = System.Text.Encoding.UTF8;
 Console.Write("Скільки ти маєш грошей? ");
 int money = int.Parse(Console.ReadLine());
 
+// -------------------------- урок 2
+Console.WriteLine("Hello World");
+Console.WriteLine("Hello World");
+
+Console.Write("Hello World");
+Console.Write("Hello World");
+Console.WriteLine();
+
+// введення значення з клавіатури
+
+// типи даних:
+//  - string
+//  - int, float
+
+// створення змінної: тип назва = значення;
+
+string username = "anonymous";
+username = "blabla";
+username = "no name";
+
+Console.Write("Enter your name: ");
+username = Console.ReadLine();
+
+// інтерполяція: $"...{вираз}..."
+Console.WriteLine($"Hello dear, {username}!");
 Console.WriteLine($"Ти має {money / 41} долірів)");
