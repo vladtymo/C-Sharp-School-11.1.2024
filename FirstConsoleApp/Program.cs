@@ -36,3 +36,6 @@ Console.Write("Скільки ти маєш грошей? ");
 int money = int.Parse(Console.ReadLine());
 
 Console.WriteLine($"Ти має {money / 41} долірів)");
+
+Console.WriteLine("Some changes...");
+Console.WriteLine("Some changes...");
