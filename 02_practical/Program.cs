@@ -22,3 +22,5 @@ float r = float.Parse(Console.ReadLine());
 double area = Math.PI * Math.Pow(r, 2);
 
 Console.WriteLine($"Result: {area} cm^2");
+
+Console.WriteLine($"Have a good day!");
