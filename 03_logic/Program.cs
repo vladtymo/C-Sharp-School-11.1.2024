@@ -17,7 +17,28 @@ if(age >= 18)
 }
 else
 {
-    Console.ForegroundColor = ConsoleColor.Red;
-    Console.WriteLine("You can buy a milk!");
+    Console.ForegroundColor = ConsoleColor.Green;
+    Console.WriteLine("You can buy a wine!");
     Console.ResetColor();
 }
+
+// Завдання: користувач вводить кількість товару, перевірити чи можна він його купити
+
+int availableCount = 12;
+
+Console.WriteLine("How many products you want to buy: ");
+int count = int.Parse(Console.ReadLine()!);
+
+// && (і) || (або)
+
+if (count > 0 && count <= availableCount)
+{
+    Console.ForegroundColor = ConsoleColor.Green;
+    Console.WriteLine("Congratulations!");
+    availableCount -= count;
+    Console.ResetColor();
+}
+else {
+    Console.WriteLine("Not available!");
+}
+
