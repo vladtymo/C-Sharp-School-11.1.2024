@@ -6,9 +6,8 @@ int count = 0; // кількість відгаданих підрят чисе�
 
 while (true)
 {
-    Console.Write("Enter your rate: ");
-    
-    if (!int.TryParse(Console.ReadLine(), out int rate))
+    Console.Write("Enter your rate (1-6): ");
+    if (!int.TryParse(Console.ReadKey().KeyChar.ToString(), out int rate))
         continue;
     
     Console.Clear();
