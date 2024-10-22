@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06_loops", "06_loops\06_loo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_arrays", "07_arrays\07_arrays.csproj", "{6BF9BE35-563E-4933-A879-88DB5ACD81EC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_game_puzzle", "08_game_puzzle\08_game_puzzle.csproj", "{D2FD8010-3A0D-435A-BFC9-A431A7F8A7B1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
