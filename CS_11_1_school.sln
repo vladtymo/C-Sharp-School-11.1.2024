@@ -15,9 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05_random", "05_random\05_r
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06_loops", "06_loops\06_loops.csproj", "{B39BA965-7879-49B8-9A49-C1A60633ED54}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_arrays", "07_arrays\07_arrays.csproj", "{6BF9BE35-563E-4933-A879-88DB5ACD81EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07_arrays", "07_arrays\07_arrays.csproj", "{6BF9BE35-563E-4933-A879-88DB5ACD81EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_game_puzzle", "08_game_puzzle\08_game_puzzle.csproj", "{D2FD8010-3A0D-435A-BFC9-A431A7F8A7B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08_game_puzzle", "08_game_puzzle\08_game_puzzle.csproj", "{D2FD8010-3A0D-435A-BFC9-A431A7F8A7B1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,6 +53,10 @@ Global
 		{6BF9BE35-563E-4933-A879-88DB5ACD81EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6BF9BE35-563E-4933-A879-88DB5ACD81EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6BF9BE35-563E-4933-A879-88DB5ACD81EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2FD8010-3A0D-435A-BFC9-A431A7F8A7B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2FD8010-3A0D-435A-BFC9-A431A7F8A7B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2FD8010-3A0D-435A-BFC9-A431A7F8A7B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2FD8010-3A0D-435A-BFC9-A431A7F8A7B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
