@@ -31,3 +31,34 @@ while (count < n)
     Console.WriteLine($"{count} - Hello!");
     ++count;
 }
+
+// -------------- цикли --------------
+// 1 - for
+Console.Write("Enter how many David say hello?");
+int c = int.Parse(Console.ReadLine());
+
+for (int i = 0; i < c; i++)
+{
+    Console.WriteLine("Hello David!");
+}
+
+// 2 - while
+Console.Write("Enter your age: ");
+int age = int.Parse(Console.ReadLine());
+
+while (age < 0)
+{
+    Console.Write("Age is invalid. Please enter again: ");
+    age = int.Parse(Console.ReadLine());
+}
+
+// 3 - do white
+string name;
+do
+{
+    Console.Write("Enter your name: ");
+    name = Console.ReadLine();
+    
+} while (!char.IsUpper(name[0]));
+
+Console.WriteLine("Have a nice day!");
