@@ -61,4 +61,14 @@ do
     
 } while (!char.IsUpper(name[0]));
 
+// вічний цикл
+while (true)
+{
+    Console.Write("Enter password: ");
+    string pass = Console.ReadLine();
+    
+    if (pass == "admin")
+        break; // вихід із циклу
+}
+
 Console.WriteLine("Have a nice day!");
