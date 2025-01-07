@@ -31,3 +31,8 @@ Console.WriteLine(password.Remove(3, 1));
 Console.WriteLine(text.Replace('!', ';'));
 
 Console.WriteLine(password.Trim());
+
+if (password.CompareTo(text) > 0)
+{
+    Console.WriteLine("Password is greater than text!");
+}
