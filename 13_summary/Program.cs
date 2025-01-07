@@ -85,7 +85,11 @@ void PrintRandom()
     int limit = int.Parse(Console.ReadLine());
     Console.WriteLine(new Random().Next(0, limit + 1));
 }
+        
+PrintRandom();
+PrintRandom();
+PrintRandom();
 
-PrintRandom();
-PrintRandom();
-PrintRandom();
+string login = "SuperDavid";
+
+login.ToUpper();
