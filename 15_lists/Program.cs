@@ -35,3 +35,9 @@ colors.Reverse();
 Console.WriteLine("Reversed: " + string.Join(", ", colors));
 
 Console.WriteLine("Colors count: " + colors.Count);
+
+colors.Exists(x => x.Length > 5);
+colors.Exists(x => x[0] == 'A');
+
+colors.Find(x => x.Length > 5);
+colors.FindAll(x => x[0] == 'A');
