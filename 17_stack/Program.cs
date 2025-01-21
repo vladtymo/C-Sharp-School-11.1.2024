@@ -1,4 +1,7 @@
-﻿Stack<string> students = new Stack<string>();
+﻿using System.Collections.Generic;
+Console.OutputEncoding = System.Text.Encoding.UTF8;
+
+Stack<string> students = new Stack<string>();
 
 students.Push("Ivan");
 students.Push("Nazar");
